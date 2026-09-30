@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.PaiDeTodos{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 85%;
+}
+
+.naV{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    width: 15%;
+}
+
+.header4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    height: 20vh;
+    width: 100%;
+}
+
+.main4{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+    width: 80%;
+}
+.aside{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 20%;
+}
+
+.footer4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    height: 20vh;
+    width: 100%;
+}

@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container1{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: end;
+    gap: 4px;
+    background-color: plum;
+    opacity: 0.5;
+    height: 20vh;
+}
+
+.bola1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-items: center;
+    gap: 4px;
+    background-color: lightgreen;
+    opacity: 0.5;
+    height: 20vh;
+}
+
+.bola2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container3{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    background-color: lightcoral;
+    opacity: 0.5;
+    height: 20vh;
+}
+
+.bola3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container4{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightgoldenrodyellow;
+    opacity: 0.5;
+    height: 20vh;
+}
+
+.bola4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.container5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightblue;
+    opacity: 0.5;
+    height: 20vh;
+}
+
+.bola5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    opacity: 0.5;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}

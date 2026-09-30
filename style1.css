@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(lightblue, blue);
+    height: 100px;
+}
+
+.main1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(blue, purple);
+    height: 50%;
+    flex-grow: 1;
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(purple, red);
+    height: 100px;
+}

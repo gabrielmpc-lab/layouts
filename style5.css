@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.PaiDeTodos{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 85%;
+}
+
+.naV{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightpink;
+    width: 15%;
+    gap: 6px;
+}
+.NAV_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgreen;
+    height: 8vh;
+    width: 7vw;
+    font-size: 10px;
+}
+
+.header4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsalmon;
+    height: 20vh;
+    width: 100%;
+}
+
+.main4{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    flex-grow: 1;
+}
+.meio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+    width: 90%;
+}
+
+.article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightsteelblue;
+    width: 100%;
+    height: 50%;
+}
+.texto1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: brown;
+    color: brown;
+    height: 20vh;
+    width: 25vw;
+}
+
+.ARTICLE2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:lightsteelblue;
+    width: 100%;
+    height: 50%;
+    gap: 70px;
+}
+.texto2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightcyan;
+    color: lightcyan;
+    height: 13vh;
+    width: 16vw;
+    font-size: 2px;
+}
+
+.aside{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    width: 20%;
+    gap: 7vh;
+}
+.ASIDE_{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: palevioletred;
+    height: 9vh;
+    width: 7vw;
+    font-size: 10px;
+}
+
+.footer4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    height: 20vh;
+    width: 100%;
+}
